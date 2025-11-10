@@ -23,7 +23,7 @@ export default function vsection() {
   return (
     <div className='relative vd-pin  bg-amber-300 h-dvh overflow-hidden'>
              <div style={{clipPath:'circle(10% at 50% 50%)'}} className='size-full vbox '>
-                <video src={vdurl} playsInline muted loop autoPlay 
+                <video src={vdurl} playsInline muted loop autoPlay preload='none'
                 className="absolute inset-0 w-full h-full"
                 />
                 <div className='absolute top-1/2 left-1/2 -translate-x-1/2  animate-spin [animation-duration:25s] -translate-y-1/2'>
