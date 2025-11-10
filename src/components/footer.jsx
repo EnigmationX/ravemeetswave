@@ -1,10 +1,11 @@
 import React from 'react'
-
+import raver from '../assets/images/ravers.webp'
+import instagram from '../assets/images/instagram.svg'
 export default function footer() {
   return (
     <>
     <div className='z-10 h-d relative w-full overflow-hidden bg-amber-200 '>
-        <img className='object-cover rounded-b-xl rounded-bl-xl  lg:w-full' src="./ravers.png"/>
+        <img className='object-cover rounded-b-xl rounded-bl-xl  lg:w-full' src={raver}/>
         <span style={{fontFamily:"Baby Gemoy"}} className='text-nowrap text-bl text-[10px] sm:text-xs md:text-2xl lg:text-5xl -translate-x-1/2 absolute top-1/2 flex-nowrap left-1/2'>Shoe Optional, Memories Guaranteed</span>
     </div>
     <div className=' px-1.5 bg-amber-200 inline-flex justify-between items-center   w-full relative pt-2.5 '>
@@ -14,7 +15,7 @@ export default function footer() {
             </span>
             <span>all rights reservered 2025</span>
             </span>
-         <a className="w-fit" href='https://www.instagram.com/ravemeetswave/'><img className='h-5 md:h-10 ' src='./instagram.svg'/></a>
+         <a className="w-fit" href='https://www.instagram.com/ravemeetswave/'><img className='h-5 md:h-10 ' src={instagram}/></a>
     </div>
     </>
   )

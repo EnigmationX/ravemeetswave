@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../assets/images/logo.webp';
  export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50   px-4 py-3 flex justify-between items-center">
       {/* Logo */}
       <div className="text-white font-bold text-xl">
        <img
-         src="./logo.png"
+         src={logo}
          alt="Rave Meets Wave"
         loading="lazy"
         decoding="async"

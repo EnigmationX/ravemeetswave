@@ -5,14 +5,14 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss(),    ViteImageOptimizer({
+  plugins: [react(),tailwindcss(),ViteImageOptimizer({
       // Optimize PNG
       png: {
-        quality: 75,
+        quality: 50,
       },
       // Optimize JPEG
       jpeg: {
-        quality: 75,
+        quality: 50,
       },
       // Convert to WebP automatically
       webp: {
@@ -20,7 +20,7 @@ export default defineConfig({
       },
       // Optimize AVIF for modern browsers
       avif: {
-        quality: 70,
+        quality: 50,
       },
       // Optimize SVG files
       svg:false,
