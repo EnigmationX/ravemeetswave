@@ -2,6 +2,8 @@
 
 **RaveMeetsWave** is an animated landing page for an upcoming beach event. Built with **React** and **GSAP**, it delivers a fun, immersive experience with smooth animations and interactive sections.
 
+Check it out live: [RaveMeetsWave Live Demo](https://rave-meets-wave.netlify.app/)
+
 ---
 
 ## 🚀 Features
